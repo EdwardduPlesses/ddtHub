@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /app
 
 # Copy the CSPROJ file and restore any dependencies (via NUGET)
-COPY DallyTally.Api/DallyTally.Api.csproj ./
+COPY DDT.Api/DDT.Api.csproj ./
 RUN dotnet restore
 
 # Copy the project files and build the release
@@ -15,4 +15,4 @@ RUN dotnet publish DDT.Api/DDT.Api.csproj -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "DallyTally.Api.dll"]
+ENTRYPOINT ["dotnet", "DDT.Api.dll"]
