@@ -44,7 +44,7 @@ namespace DDT.Api
             {
                 options.AddPolicy(
                     "CorsPolicy",
-                    builder => builder.WithOrigins("http://localhost:5173", "https://ddt-hub.netlify.app/")
+                    builder => builder.WithOrigins("http://localhost:5173", "https://ddt-hub.netlify.app")
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials());
