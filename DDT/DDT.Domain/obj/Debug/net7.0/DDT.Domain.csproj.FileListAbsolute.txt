@@ -1,0 +1,12 @@
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\bin\Debug\net7.0\DDT.Domain.deps.json
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\bin\Debug\net7.0\DDT.Domain.dll
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\bin\Debug\net7.0\DDT.Domain.pdb
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.csproj.AssemblyReference.cache
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.AssemblyInfoInputs.cache
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.AssemblyInfo.cs
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.csproj.CoreCompileInputs.cache
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.dll
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\refint\DDT.Domain.dll
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\DDT.Domain.pdb
+C:\Users\EdwardduPlessis\Documents\Personal\Personal Repos\DDT\DDT\DDT.Domain\obj\Debug\net7.0\ref\DDT.Domain.dll

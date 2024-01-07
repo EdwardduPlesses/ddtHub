@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="e3964f71-bb33-4ec8-b54f-415dd3b62c18" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Controllers</name>
+  <display>Controllers</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d8311ff6-557e-449b-9016-08264df07954</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="22764a2a-4f28-427b-b4f2-2ae3459549d8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Controllers.Controller</name>
+      <display>Intent.AspNetCore.Controllers.Controller</display>
+      <externalReference>Intent.AspNetCore.Controllers</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>e3964f71-bb33-4ec8-b54f-415dd3b62c18</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="2ef21716-d9a8-447f-8a03-a1318e08cf96" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.AccountController</name>
+      <display>Intent.AspNetCore.Identity.AccountController.AccountController</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>e3964f71-bb33-4ec8-b54f-415dd3b62c18</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

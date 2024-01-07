@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>TimeEntriesService</name>
+  <display>TimeEntriesService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f6523d22-5052-4632-a3a4-9d5fee1fa041</parentFolderId>
+  <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+  <packageName>DDT.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="api/time-entries" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="82663aa7-8e57-49f6-9a1a-639113125983" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>CreateTimeEntry</name>
+      <display>CreateTimeEntry(dto: TimeEntryCreateDto): guid</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="bbbfa3a0-518b-4a71-8d92-896e5697623f">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="6e7c6fba-ef7f-43be-bf31-e9886e383fe3" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: TimeEntryCreateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="944d86dc-52cc-47ff-8ff3-70b7ea26687e">
+            <typeId>1d6596f8-1f66-40d7-970a-49130d41b9e2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>82663aa7-8e57-49f6-9a1a-639113125983</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="ef2512df-d777-4d83-90d2-cf9682eab6a3" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindTimeEntryById</name>
+      <display>FindTimeEntryById(id: guid): TimeEntryDto</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="895eb84a-2cce-4318-ae58-846983ba4658">
+        <typeId>143876ea-3b16-4fd5-bd8c-5e4db8c9d1ae</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="ce17f21c-4ece-4be6-965a-b7f6dbc69354" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="4292c498-5a44-4bb0-be17-0500345b2699">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ef2512df-d777-4d83-90d2-cf9682eab6a3</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="8a20f3fb-c39f-44b2-9b10-594141e62f95" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindTimeEntries</name>
+      <display>FindTimeEntries(): TimeEntryDto[*]</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="747b60ce-9c6b-4950-9484-0b8d228ef649">
+        <typeId>143876ea-3b16-4fd5-bd8c-5e4db8c9d1ae</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="5cf4357d-f01d-483e-9718-1ca0441d3a40" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>UpdateTimeEntry</name>
+      <display>UpdateTimeEntry(id: guid, dto: TimeEntryUpdateDto): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="553cb688-b498-4766-984e-81f9e9c8113c">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="3e74a259-4f11-4bca-856c-488cc06a3efd" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="047e9d81-5990-48fb-a8ee-6b34b60ae52d">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>5cf4357d-f01d-483e-9718-1ca0441d3a40</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="6740746f-bb4a-4bf1-bdb1-d87b0a6714db" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: TimeEntryUpdateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="d935a17c-5cbb-4d44-a445-26e3925a67cd">
+            <typeId>f5751bb5-9aae-4172-9a52-414b22879ab5</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>5cf4357d-f01d-483e-9718-1ca0441d3a40</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="6f6b8ead-34af-456d-9686-0d848b0174bb" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>DeleteTimeEntry</name>
+      <display>DeleteTimeEntry(id: guid): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="df0d79a0-35cc-4797-81f9-e877467e1d5a">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="b431adb8-f92a-448f-956b-1b3862fb8ac9" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="b65113f4-9cea-42b9-9ae9-6c911426ee94">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>6f6b8ead-34af-456d-9686-0d848b0174bb</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="7240c742-0512-4189-aab3-4e8bd3b00ab4" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>Guess</name>
+      <display>Guess(guess: GuessDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="66d422e7-c479-4868-b659-5239dd5b21d8">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="guess" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="7bff0148-e43a-4e82-81ac-cc8ebc6c1a1e" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>guess</name>
+          <display>in : guess: GuessDTO</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="c845a185-bf37-42c9-91d9-9d3a58e31e56">
+            <typeId>4e9b59c4-a4fc-486e-9d38-467dca8542d4</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>7240c742-0512-4189-aab3-4e8bd3b00ab4</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="ba921993-f6b0-4e6a-872c-4e179561269e" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>Actual</name>
+      <display>Actual(actual: ActualDTO): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="b80aa8d6-71eb-43e6-866b-c696d710dcae">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>bfed3e63-c3e3-41a8-9be9-a13cb4ee3e32</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="POST" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="actual" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="410575ba-107a-4dcc-b236-38614c407806" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>actual</name>
+          <display>in : actual: ActualDTO</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="b5de8b09-bdb8-4d16-94ef-34a37cdd70f9">
+            <typeId>a090bef3-55c2-489d-bfee-41b767d85ad1</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>ba921993-f6b0-4e6a-872c-4e179561269e</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="f5c9ce3f-4f03-4f9c-a6ee-8a7791c41e40" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Account</name>
+  <display>Account</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7f8ae6b5-6f10-48ff-99f4-f522bcb4ee8e</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="2edd043e-a583-4232-ac55-c75ae2174ca5" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.AccountEmailSender</name>
+      <display>Intent.AspNetCore.Identity.AccountController.AccountEmailSender</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>f5c9ce3f-4f03-4f9c-a6ee-8a7791c41e40</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bb62e557-012c-4ff6-a19b-2a9b168128fe" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Identity.AccountController.AccountEmailSenderInterface</name>
+      <display>Intent.AspNetCore.Identity.AccountController.AccountEmailSenderInterface</display>
+      <externalReference>Intent.AspNetCore.Identity.AccountController</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>f5c9ce3f-4f03-4f9c-a6ee-8a7791c41e40</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

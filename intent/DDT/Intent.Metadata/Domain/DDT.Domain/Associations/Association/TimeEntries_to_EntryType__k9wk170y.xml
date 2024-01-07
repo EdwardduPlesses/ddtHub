@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="794a97fa-ad52-4e03-a56d-9a541dcf4ed6">
+  <sourceEnd id="873259d3-fa51-42a1-8168-b745654cb2e9" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>TimeEntries</name>
+    <display>TimeEntries: TimeEntry[*]</display>
+    <order>0</order>
+    <typeReference id="0e4d2e98-a979-4d57-9778-5e8782c45b11">
+      <typeId>68434b48-27bb-4b6f-a755-11b48394e73a</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>DDT.Domain</typePackageName>
+      <typePackageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="794a97fa-ad52-4e03-a56d-9a541dcf4ed6" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>EntryType</name>
+    <display>EntryType: EntryType   [* --&gt; 1]</display>
+    <order>5</order>
+    <typeReference id="a5b3989d-6b31-493d-b686-a80e969b1776">
+      <typeId>b6cf5482-101a-4a60-9726-3b35b6899678</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>DDT.Domain</typePackageName>
+      <typePackageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

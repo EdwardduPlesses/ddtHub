@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DDT.Application</name>
+    </assembly>
+    <members>
+        <member name="T:DDT.Application.Common.Behaviours.UnitOfWorkBehaviour`2">
+            <summary>
+            Ensures that all operations processed as part of handling a <see cref="T:DDT.Application.Common.Interfaces.ICommand"/> either
+            pass or fail as one unit. This behaviour makes it unnecessary for developers to call
+            SaveChangesAsync() inside their business logic (e.g. command handlers), and doing so should
+            be avoided unless absolutely necessary.
+            </summary>
+        </member>
+        <member name="M:DDT.Application.Common.Pagination.PagedResultMappingExtensions.MapToPagedResult``2(DDT.Domain.Repositories.IPagedResult{``0},System.Func{``0,``1})">
+            <summary>
+            Maps a page of Domain elements into a page of DTO elements. See <see cref="T:DDT.Domain.Repositories.IPagedResult`1"/>. 
+            </summary>
+            <param name="pagedResult">A single page retrieved from a persistence store.</param>
+            <param name="mapFunc">
+            Provide a mapping function where a single Domain element is supplied to the function
+            that returns a single DTO element. There are some convenient mapping extension methods
+            available or alternatively you can instantiate a new DTO element.
+            <example>results.MapToPagedResult(x => x.MapToItemDTO(_mapper));</example>
+            <example>results.MapToPagedResult(x => ItemDTO.Create(x.ItemName));</example>
+            </param>
+            <typeparam name="TDomain">Domain element type</typeparam>
+            <typeparam name="TDto">DTO element type</typeparam>
+            <returns>A single page of DTO elements</returns>
+        </member>
+        <member name="T:DDT.Application.Common.Security.AuthorizeAttribute">
+            <summary>
+            Specifies the class this attribute is applied to requires authorization.
+            </summary>
+        </member>
+        <member name="M:DDT.Application.Common.Security.AuthorizeAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DDT.Application.Common.Security.AuthorizeAttribute"/> class. 
+            </summary>
+        </member>
+        <member name="P:DDT.Application.Common.Security.AuthorizeAttribute.Roles">
+            <summary>
+            Gets or sets a comma delimited list of roles that are allowed to access the resource.
+            </summary>
+        </member>
+        <member name="P:DDT.Application.Common.Security.AuthorizeAttribute.Policy">
+            <summary>
+            Gets or sets the policy name that determines access to the resource.
+            </summary>
+        </member>
+    </members>
+</doc>

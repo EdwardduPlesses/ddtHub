@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="68434b48-27bb-4b6f-a755-11b48394e73a" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>TimeEntry</name>
+  <display>TimeEntry</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</parentFolderId>
+  <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+  <packageName>DDT.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="9c1fba8f-2333-417c-9edb-e2970e62a665" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Id</name>
+      <display>Id: guid</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="fffefaf8-813c-4426-bfdc-25d32dbb2506">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>68434b48-27bb-4b6f-a755-11b48394e73a</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b99aac21-9ca4-467f-a3a6-046255a9eed6" name="Primary Key">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="4c1e3f7e-61d4-460d-bd20-c2edbc0c0e2e" display="Identity" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata>
+        <entry key="is-managed-key" value="true" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="b849fa67-5b70-4bde-969f-6e86a0d816c2" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>EntryDateTime</name>
+      <display>EntryDateTime: datetimeoffset</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="bafa10fa-1e86-44d0-aa89-7658e678ab8e">
+        <typeId>f1ba4df3-a5bc-427e-a591-4f6029f89bd7</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>68434b48-27bb-4b6f-a755-11b48394e73a</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="af3c2a12-87ff-4dfd-835e-9e6b8859cb9e" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Date</name>
+      <display>Date: datetimeoffset</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="4a4930e0-7b38-4ff7-a0cb-9778543ac41b">
+        <typeId>f1ba4df3-a5bc-427e-a591-4f6029f89bd7</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>68434b48-27bb-4b6f-a755-11b48394e73a</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="9f109d75-b0a3-40f1-962c-5d05404e01d8" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>UserId</name>
+      <display>UserId: guid</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="315bb54d-e949-4e0c-8e4d-7b9b62161999">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>68434b48-27bb-4b6f-a755-11b48394e73a</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="7dd90759-1bde-4b30-8449-5429b143f119" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>EntryTypeId</name>
+      <display>EntryTypeId: guid</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="399818c4-f246-409f-946e-5e6aaebc0310">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>68434b48-27bb-4b6f-a755-11b48394e73a</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="793a5128-57a1-440b-a206-af5722b752a6" name="Foreign Key">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="42e4f9b5-f834-4e5f-86aa-d3a35c505076" display="Association" value="794a97fa-ad52-4e03-a56d-9a541dcf4ed6" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata>
+        <entry key="fk-original-name" value="EntryTypeId" />
+        <entry key="association" value="794a97fa-ad52-4e03-a56d-9a541dcf4ed6" />
+        <entry key="is-managed-key" value="true" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

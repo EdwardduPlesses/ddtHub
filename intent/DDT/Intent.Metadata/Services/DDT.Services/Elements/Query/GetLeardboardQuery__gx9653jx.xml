@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="eb82c6d7-9a43-4680-965e-072e5987b88d" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetLeardboardQuery</name>
+  <display>GetLeardboardQuery: LeaderboardGetDto</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="b0aa42d9-8875-4e08-b2af-bb26c7881133">
+    <typeId>60e73f3c-5db0-42b1-b57a-d99b8a9728fb</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>DDT.Services</typePackageName>
+    <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>a140a2d7-fbf5-47dc-839d-d3c45e212aec</parentFolderId>
+  <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+  <packageName>DDT.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

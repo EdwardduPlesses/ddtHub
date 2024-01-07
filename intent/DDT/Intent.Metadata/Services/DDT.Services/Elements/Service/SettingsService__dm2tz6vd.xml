@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="3a688ab6-1f65-4d1e-9814-c13af7eb376d" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>SettingsService</name>
+  <display>SettingsService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f6523d22-5052-4632-a3a4-9d5fee1fa041</parentFolderId>
+  <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+  <packageName>DDT.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="e8f3cdbc-9ba4-4f2c-ae99-113ac088a239" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>CreateSettings</name>
+      <display>CreateSettings(dto: SettingsCreateDto): guid</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="38e82b44-cf12-4fa6-a32b-8addcce93c20">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>3a688ab6-1f65-4d1e-9814-c13af7eb376d</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="2195c168-9c61-40a5-9ef0-24500fdb1f76" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: SettingsCreateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="d7a45f70-261d-4feb-837b-911ebcb654d9">
+            <typeId>22494586-7050-4854-a961-5549984ef80a</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>e8f3cdbc-9ba4-4f2c-ae99-113ac088a239</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="162d8bf8-fc0b-49b4-b18d-a8935fc0d0e1" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindSettingsById</name>
+      <display>FindSettingsById(id: guid): SettingsDto</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="748de3fb-5439-431f-af86-045e16a19ca6">
+        <typeId>f6a3e6eb-3154-4a47-8363-3437260da79b</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>3a688ab6-1f65-4d1e-9814-c13af7eb376d</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="8aed3954-1fea-4729-a340-f5cb2b1e58d1" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="038da972-9b93-4006-9d87-d4084da33a88">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>162d8bf8-fc0b-49b4-b18d-a8935fc0d0e1</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="cbc2f174-f286-4c93-9b48-4009e0c17d2c" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindSettings</name>
+      <display>FindSettings(): SettingsDto[*]</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="c9fb4a23-37b8-412d-9b60-29bea8e8dc3e">
+        <typeId>f6a3e6eb-3154-4a47-8363-3437260da79b</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>3a688ab6-1f65-4d1e-9814-c13af7eb376d</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="10aecc3f-9079-4033-b8d4-3786c94d2865" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>UpdateSettings</name>
+      <display>UpdateSettings(id: guid, dto: SettingsUpdateDto): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="7a2d7eef-2527-4f0e-8a90-768e23afde33">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>3a688ab6-1f65-4d1e-9814-c13af7eb376d</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="58051e6d-3234-4a74-aebe-6d6277df3f7a" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="794a7e6c-61d2-4ec6-88c2-00ced1d1cfbe">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>10aecc3f-9079-4033-b8d4-3786c94d2865</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="43878609-ea8f-4227-becd-a7cd866d264e" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: SettingsUpdateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="ba0d616a-3712-4b32-9476-127aba2dd426">
+            <typeId>1d2eadf9-2c38-4cf8-9ca3-f43d78191b43</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>10aecc3f-9079-4033-b8d4-3786c94d2865</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="30d4d8bc-c93d-4f09-9e4f-3015ef88638b" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>DeleteSettings</name>
+      <display>DeleteSettings(id: guid): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="7dc0e9a9-bc7c-4332-a03e-f1500eb31a32">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>3a688ab6-1f65-4d1e-9814-c13af7eb376d</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="e97032ae-c83b-45c7-9a44-d75d91c45ec6" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="71d11509-e495-4e30-b525-933845d28e17">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>30d4d8bc-c93d-4f09-9e4f-3015ef88638b</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

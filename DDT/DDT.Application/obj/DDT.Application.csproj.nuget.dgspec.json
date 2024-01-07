@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repos\\ddtHub\\DDT\\DDT.Application\\DDT.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Repos\\ddtHub\\DDT\\DDT.Application\\DDT.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\ddtHub\\DDT\\DDT.Application\\DDT.Application.csproj",
+        "projectName": "DDT.Application",
+        "projectPath": "D:\\Repos\\ddtHub\\DDT\\DDT.Application\\DDT.Application.csproj",
+        "packagesPath": "C:\\Users\\EdwardduPlessis\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\ddtHub\\DDT\\DDT.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EdwardduPlessis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/webuycars-code/_packaging/WeBuyCars-Core-Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\DDT.Domain.csproj": {
+                "projectPath": "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\DDT.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            },
+            "Intent.RoslynWeaver.Attributes": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\DDT.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\DDT.Domain.csproj",
+        "projectName": "DDT.Domain",
+        "projectPath": "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\DDT.Domain.csproj",
+        "packagesPath": "C:\\Users\\EdwardduPlessis\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\ddtHub\\DDT\\DDT.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EdwardduPlessis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/webuycars-code/_packaging/WeBuyCars-Core-Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Intent.RoslynWeaver.Attributes": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

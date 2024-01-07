@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="03bb967e-e8fe-4da5-b139-225edace97e0" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>LeaderboardsService</name>
+  <display>LeaderboardsService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>f6523d22-5052-4632-a3a4-9d5fee1fa041</parentFolderId>
+  <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+  <packageName>DDT.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c29224ec-d473-4b95-ad4a-ec55c676c4fd" name="Http Service Settings">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="1e223bd0-7a72-435a-8741-a612d88e4a12" display="Route" value="api/leaderboards" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="af2bbada-3091-4ca2-adb8-c6d3a53b5cd6" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>CreateLeaderboard</name>
+      <display>CreateLeaderboard(dto: LeaderboardCreateDto): guid</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="9e1b47eb-f7ed-4c5b-9214-5548a091a9dc">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="fad82759-b356-4729-9fd8-22b7efbdd3f5" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: LeaderboardCreateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="6541e696-a543-415d-a48e-af0effe63eb1">
+            <typeId>7d08ce77-69aa-4f44-b7ee-ad7bd2f9209a</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>af2bbada-3091-4ca2-adb8-c6d3a53b5cd6</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="c7daca9d-5dff-4099-9da8-9c46fa831867" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindLeaderboardById</name>
+      <display>FindLeaderboardById(id: guid): LeaderboardDto</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="08adee76-ffaf-4ed2-98ee-8cbf69cb5258">
+        <typeId>9a9e4065-561c-4223-9eea-521c6c8f4973</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="fe2911fd-df45-4443-b1c2-8ae43d7d3295" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="442d978c-e7d7-46fb-9746-97efb3d9ccf1">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>c7daca9d-5dff-4099-9da8-9c46fa831867</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="8c3a4451-0ee5-4a1a-9578-26f219a3fcae" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>FindLeaderboards</name>
+      <display>FindLeaderboards(): LeaderboardDto[*]</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="58ef273d-5a02-4d57-9e4a-260f589fd458">
+        <typeId>9a9e4065-561c-4223-9eea-521c6c8f4973</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="7ec1726d-354a-4067-a672-728d5f69a5db" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>UpdateLeaderboard</name>
+      <display>UpdateLeaderboard(id: guid, dto: LeaderboardUpdateDto): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="99bbe754-fd73-43f6-9ada-5ae52b50e02f">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="b1a42b1a-fec3-4785-b760-1b2b3579dd28" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="b0c4a671-5ad2-4420-b439-366ba723e5c6">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>7ec1726d-354a-4067-a672-728d5f69a5db</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="7f0c26da-608b-4b14-857b-3a3824492938" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>dto</name>
+          <display>in : dto: LeaderboardUpdateDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="bb6d46d1-5248-4c2e-b7f5-06dc3c420c1b">
+            <typeId>dc5aa788-5ae3-420e-9485-e76a1822acda</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>7ec1726d-354a-4067-a672-728d5f69a5db</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="e03324f7-4d8d-4551-a06c-319c721b8fa6" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>DeleteLeaderboard</name>
+      <display>DeleteLeaderboard(id: guid): void</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="2eae1517-e561-4b03-a375-630a090edbf9">
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="5c10c406-7f26-4e64-a329-4f01eab7a8f6" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>id</name>
+          <display>in : id: guid</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="bea0c6a6-c37d-4c58-8b65-23de1ee358d9">
+            <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>e03324f7-4d8d-4551-a06c-319c721b8fa6</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="e8b28bcf-5d76-49c7-a189-e9b24f0aedc3" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>GetLeaderboard</name>
+      <display>GetLeaderboard(leaderboardGetData: LeaderboardGetDto): LeaderboardDataDto[*]</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="a10912ed-2cbd-47e3-8cb0-a7bb90068cea">
+        <typeId>79398f9e-09df-4811-a0f5-803333765c6c</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>true</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>DDT.Services</typePackageName>
+        <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>03bb967e-e8fe-4da5-b139-225edace97e0</parentFolderId>
+      <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+      <packageName>DDT.Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+          <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+          <properties>
+            <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+            <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="data" isActive="true" />
+            <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="22566889-c9e5-49c5-96ea-08b93a46c3d5" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>leaderboardGetData</name>
+          <display>in : leaderboardGetData: LeaderboardGetDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="f9c801d1-49a3-4ea5-8d8e-2da391adcf29">
+            <typeId>60e73f3c-5db0-42b1-b57a-d99b8a9728fb</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>DDT.Services</typePackageName>
+            <typePackageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>e8b28bcf-5d76-49c7-a189-e9b24f0aedc3</parentFolderId>
+          <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+          <packageName>DDT.Services</packageName>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="d01df110-1208-4af8-a913-92a49d219552" name="Parameter Settings">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+              <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+              <properties>
+                <property name="d2630e0f-f930-404f-b453-1e8052a712f5" display="Source" value="Default" isActive="true" />
+                <property name="7a331e9b-f13c-4b33-9013-bd59b4a4999c" display="Header Name" isActive="false" />
+                <property name="c8caa58e-972a-42f2-983e-652ceee762b2" display="Query String Name" isActive="false" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

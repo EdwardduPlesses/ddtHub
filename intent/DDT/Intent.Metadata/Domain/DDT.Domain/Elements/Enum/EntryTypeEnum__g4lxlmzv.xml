@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b94cb8cc-1dc6-49d2-a1d6-57c2e5770abd" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>EntryTypeEnum</name>
+  <display>EntryTypeEnum</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</parentFolderId>
+  <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+  <packageName>DDT.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="9c11c07e-2474-4fb1-aa87-02383bf98b59" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>Guess</name>
+      <display>Guess</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b94cb8cc-1dc6-49d2-a1d6-57c2e5770abd</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="fb5ebfba-760c-45a1-9b64-beb190aacc8d" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>Actual</name>
+      <display>Actual</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>b94cb8cc-1dc6-49d2-a1d6-57c2e5770abd</parentFolderId>
+      <packageId>c682623d-2ee2-4a5f-9658-7c7f8e2e7c2d</packageId>
+      <packageName>DDT.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

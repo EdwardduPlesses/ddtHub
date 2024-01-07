@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="1bdf7140-616a-452a-b3d6-d07a95c86ff0" type="Command" typeId="ccf14eb6-3a55-4d81-b5b9-d27311c70cb9">
+  <name>SeedDataCommand</name>
+  <display>SeedDataCommand: void</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="878f66c6-5f82-4071-9d8d-047aadd9e75e">
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>false</isCollection>
+    <isRequired>true</isRequired>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>04dc997c-de8a-4c0c-8f1c-d4b54012fcc1</parentFolderId>
+  <packageId>f6523d22-5052-4632-a3a4-9d5fee1fa041</packageId>
+  <packageName>DDT.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="PUT" isActive="true" />
+        <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="api/seeding/seed-data" isActive="true" />
+        <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

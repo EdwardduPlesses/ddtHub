@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="24e3f2fa-eead-4bd1-bf15-2ddea2dc49eb" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Filters</name>
+  <display>Filters</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>d8311ff6-557e-449b-9016-08264df07954</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="e4434cdb-0cc5-484d-8de9-6b0977db98ee" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Controllers.ExceptionFilter</name>
+      <display>Intent.AspNetCore.Controllers.ExceptionFilter</display>
+      <externalReference>Intent.AspNetCore.Controllers</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>24e3f2fa-eead-4bd1-bf15-2ddea2dc49eb</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="e49b031c-8902-4026-b013-372632f6ec62" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter</name>
+      <display>Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter</display>
+      <externalReference>Intent.AspNetCore.Swashbuckle.Security</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>24e3f2fa-eead-4bd1-bf15-2ddea2dc49eb</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>
